@@ -41,7 +41,6 @@ reg = ['[🥇🥈🥉🏅] Rank: ([ABCDESX]+) \(((\d+,\d+)|\d+) Rank Points\)', 
 
 with open('rp.txt', 'w') as f:
     before = round(time()) # Start searching from current time
-    before = 1675321200
     calls = 0 # number of calls
     players = {} # dict of players
     seasonStart = 1675278000 # 19:00 Feb 1 2023 GMT
