@@ -37,7 +37,7 @@ class Interact:
         self.rp = rp
 
 # first one for profile calls, second one for attacks
-reg = ['[🥇🥈🥉🏅] Rank: ([ABCDESX]+) \(((\d+,\d+)|\d+) Rank Points\)', '🏅 [+-](.\d+) RP']
+reg = ['[🥇🥈🥉🏅] Rank: ([ABCDESX]+) \(-?((\d+,\d+)|\d+) Rank Points\)', '🏅 [+-](.\d+) RP']
 
 with open('rp.txt', 'w') as f:
     before = round(time()) # Start searching from current time
